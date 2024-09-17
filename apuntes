@@ -1,0 +1,39 @@
+EMPRESAS POSIBLES:
+NEORIS
+
+
+EXAMENES:
+-toda la parte
+-unity (buscar assets ligeros porque los pcs explotan) ,backend
+
+ ##################16/09/24###################
+ -se usa react en backend
+ -angular da ventaja en proyecto
+ -meter diferentes ficheros de conifgracion que vamos a acceder mediante funciones
+ - vamos a usar mongodb
+ -se usa jsx java + xml
+ -como hacer endpoints para conectarme desde el front al backendd (como las apis) (tailwind)
+ -vamos a usar unity para juegos pequeños, colider, trigger. para luego meterle las interfaces  de C#
+ -vamos a usar dockers.
+ -vamos a usar imagenes tipo helm O TERRAFORM para el codigo.
+ -se va a usar mucho js con metodos como el map el filter, el axios, funciones asincronas y demas, por lo que veo muchas cosas tirando de librerias y frameworks
+-nos muestra una pagina web hecha en react mongo db y algunas cosillas la cual es un login pochillo con algunos registros de task.
+
+################17/9/24#######################
+-usamos node manager package
+-instalar el node.js en casa
+-crear carpeta de poryecto llamada proyectodam2
+-node -v para ver si lo tengo instalado
+-crear carpeta src
+-npm iniit -y que es para incializar el espacion de trabajo
+-cuando le de me va a crear el package.json
+-el type:module tenemos que ponerlo nosotros, si no ponemos type al arrancar dara un error, que dira que metamos el type
+-en scripts solo tenemos el start y test los demas entornos tenemos que hacerlo nosotros
+-se puede borrar la carpeta node modules al pasar el proyecto entre ordenadores
+-devdependencies son modulos a instalar para el desarrollo
+-express es el servidor de aplicacion
+-siempre que uso un modulo lo tengo que instalar
+-para instalar modulos hay que poner "npm i [modulo a instalar]" -D mayuscula para meterlo en las dependecias dev
+-para iniciar nuestra app ejecutamos en el terminal node src/app.js
+-para exportar mis paquetes tengo que poner "export" para que no tenga que poner llaves pongo "default" y quedaria "export default [paquete o nombre del archivo donde esta el codigo a exportar]"
+
