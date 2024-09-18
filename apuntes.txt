@@ -6,17 +6,17 @@ EXAMENES:
 -toda la parte
 -unity (buscar assets ligeros porque los pcs explotan) ,backend
 
- ##################16/09/24###################
- -se usa react en backend
- -angular da ventaja en proyecto
- -meter diferentes ficheros de conifgracion que vamos a acceder mediante funciones
- - vamos a usar mongodb
- -se usa jsx java + xml
- -como hacer endpoints para conectarme desde el front al backendd (como las apis) (tailwind)
- -vamos a usar unity para juegos pequeños, colider, trigger. para luego meterle las interfaces  de C#
- -vamos a usar dockers.
- -vamos a usar imagenes tipo helm O TERRAFORM para el codigo.
- -se va a usar mucho js con metodos como el map el filter, el axios, funciones asincronas y demas, por lo que veo muchas cosas tirando de librerias y frameworks
+##################16/09/24###################
+-se usa react en backend
+-angular da ventaja en proyecto
+-meter diferentes ficheros de conifgracion que vamos a acceder mediante funciones
+-vamos a usar mongodb
+-se usa jsx java + xml
+-como hacer endpoints para conectarme desde el front al backendd (como las apis) (tailwind)
+-vamos a usar unity para juegos pequeños, colider, trigger. para luego meterle las interfaces  de C#
+-vamos a usar dockers.
+-vamos a usar imagenes tipo helm O TERRAFORM para el codigo.
+-se va a usar mucho js con metodos como el map el filter, el axios, funciones asincronas y demas, por lo que veo muchas cosas tirando de librerias y frameworks
 -nos muestra una pagina web hecha en react mongo db y algunas cosillas la cual es un login pochillo con algunos registros de task.
 
 ################17/9/24#######################
