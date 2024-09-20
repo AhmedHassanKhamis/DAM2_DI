@@ -37,3 +37,10 @@ EXAMENES:
 -para iniciar nuestra app ejecutamos en el terminal node src/app.js
 -para exportar mis paquetes tengo que poner "export" para que no tenga que poner llaves pongo "default" y quedaria "export default [paquete o nombre del archivo donde esta el codigo a exportar]"
 
+
+########### 20/9 #####################3
+-instalar docker desktop
+-instalar extension de docker y visualizador de carpetas y el otro de  componente de docker (dev container)
+-instalar ES7 react/redux
+-instalar Material Icon Theme
+-recordar como funciona docker compose
