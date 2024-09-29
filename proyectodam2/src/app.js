@@ -7,7 +7,7 @@ const app = express();
 
 
 app.use(morgan("dev"));
-// app.use(authRoutes);
+app.use(authRoutes);
 
 
 export default app;
