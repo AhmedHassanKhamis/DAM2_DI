@@ -6,8 +6,8 @@ services:
     ports:
       - "27017:27017"
     volumes:
-       - D:\DAM\DAM2_DI\proyectodam2\data:/data/db
-      #- /home/usertar/Escritorio/000_CLASE/DAM2_DI/proyectodam2/data:/data/db
+      # - D:\DAM\DAM2_DI\proyectodam2\data:/data/db
+      - /home/usertar/Escritorio/000_CLASE/DAM2_DI/proyectodam2/data:/data/db
     networks:
       - mongo-network
 
