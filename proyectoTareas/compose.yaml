@@ -7,8 +7,8 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      # - D:\DAM\DAM2_DI\proyectTareas\data:/data/db
-      - /home/usertar/Escritorio/000_CLASE/DAM2_DI/proyectoTareas/data:/data/db
+      - D:\DAM\DAM2_DI\proyectTareas\data:/data/db
+      #- /home/usertar/Escritorio/000_CLASE/DAM2_DI/proyectoTareas/data:/data/db
     networks:
       - mired
 

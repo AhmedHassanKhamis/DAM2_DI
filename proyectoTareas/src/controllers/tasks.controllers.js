@@ -3,11 +3,11 @@ import taskModel from "../models/tasks.model.js";
 export const task = (req, res) => {
 
     try {
-        // const { date, description} = req.body;
-        const fecha = body.date;
-        const descripcion = body.description;
+        const { date, description} = req.body;
+        const fecha = date;
+        const descripcion = description;
 
-        const nuevaTarea = new task({
+        const nuevaTarea = new taskModel({
             date,
             description
 
