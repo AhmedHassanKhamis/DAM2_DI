@@ -1,13 +1,13 @@
 import express from "express";
 import morgan from "morgan";
-import authRoutes from "./routes/Auth.routes.js"
+import router from "./routes/tasks.routes.js";
 
 
-const app = express();
+const app =  express();
 app.use(express.json())
 app.use(morgan("dev"));
-app.use(authRoutes);
+app.use(router);
 
 
 
-export default app;
+export default app

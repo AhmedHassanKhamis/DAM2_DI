@@ -44,3 +44,15 @@ EXAMENES:
 -instalar ES7 react/redux
 -instalar Material Icon Theme
 -recordar como funciona docker compose
+
+
+########### 30/9 #####################
+-en req estan todas las variables lo mismo que php con la variable req
+-dentro de body esta toda la info sobre los datos que estamos recogiendo
+-hay que usar los modelos para validar los datos pasados a la base de datos
+-en mongose se usa los objetos como modelo de datos
+-necesitamos el ES7 y el de mongodb for vs code
+-tailwind css inte
+-simple react snippets
+
+EJERCICI: HACER UN ENDPOINT QUE GUARDE EN BBDD
