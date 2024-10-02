@@ -56,3 +56,12 @@ EXAMENES:
 -simple react snippets
 
 EJERCICI: HACER UN ENDPOINT QUE GUARDE EN BBDD
+
+
+############2/10/24 #######################
+RACT + VITE
+tailwind
+EN MONGO -> 
+            -FIND ONE 
+            -FIND BY ID AND DELETE 
+            -FINDBYID
