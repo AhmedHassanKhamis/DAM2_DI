@@ -1,6 +1,6 @@
 import User from "../models/user.model.js";
 
-export const register = (req, res) => {
+export const register = async(req, res) => {
 
     try {
         const { username, email, password } = req.body
@@ -11,10 +11,11 @@ export const register = (req, res) => {
             password
 
         });
-        newUser.save();
-    
-    } catch (error) {
+        const userSaved = await newUser.save();
+        res.json(userSaved);
         
+    } catch (error) {
+        console.log(error);
     }
   
 
