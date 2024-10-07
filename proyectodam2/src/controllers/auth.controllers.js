@@ -54,16 +54,17 @@ export const login = async (req, res) => {
 };
 
 
-export const actualizarUsuario = async (req, res) => {
+export const updateUser = async (req, res) => {
     const {  username, oldPassword , newPassword } = req.body;
     try {
         const usuarioExiste = await User.findOne({username : username});
         
         if (usuarioExiste) {
             if (await bcrypt.compare(oldPassword, usuarioExiste.password)) {
-                const passwordHash = bcrypt.hash..
-                usuarioExiste.password = newPassword;
-
+                const passwordHash = await bcrypt.hashSync(newPassword, 10);
+                usuarioExiste.password = passwordHash;
+                await usuarioExiste.save();
+                res.send("Usuario actualizado");
             }
         }else{
             res.send("usuario no encontrado");
