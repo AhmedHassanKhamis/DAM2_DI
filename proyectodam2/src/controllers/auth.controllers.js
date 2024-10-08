@@ -52,7 +52,7 @@ export const login = async (req, res) => {
 
 
 };
-
+ 
 
 export const updateUser = async (req, res) => {
     const {  username, oldPassword , newPassword } = req.body;
