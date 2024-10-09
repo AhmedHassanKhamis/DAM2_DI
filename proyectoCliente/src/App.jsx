@@ -3,19 +3,20 @@ import React from 'react'
 function App() {
   return (
     <div>
-      <form action="#" method="post">
-        <h1>Bienvendio</h1>
+      <form action="#" method="post" class="w-fit flex flex-col ">
+        <h1 class="">Bienvendio</h1>
 
-        <label htmlFor="">Email
-            <input type="email" name="email" id="email" />
-        </label>
+        <label htmlFor="email">Email</label>
+        <input type="email" name="email" id="email" />
 
-        <label htmlFor="">Contraseña
-            <input type="password" name="contrasenia" id="contrasenia" />
-        </label>
 
-        <input type="submit" value="" name='Enviar' />
+        <label htmlFor="contrasenia">Contraseña</label>
+        <input type="password" name="contrasenia" id="contrasenia" />
+
+
+        <input type="submit" value="Enviar" name='Enviar' />
       </form>
+      
     </div>
   )
 }

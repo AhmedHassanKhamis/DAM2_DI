@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 
 * {
     margin: 0;
@@ -43,4 +43,4 @@ form label input {
 form > :first-child {
     margin-bottom: 10px;
     color: white;
-}
+} */
