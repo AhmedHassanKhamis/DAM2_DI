@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
 
-function App() {
-  return (
-    <div class="flex flex-col h-screen justify-center  drop-shadow">
+
+function Grid() {
+    return(
+        <div class="flex flex-col h-screen justify-center  drop-shadow">
       <form action="#" method="post" class="border-solid border-2 border-black p-5 w-fit self-center flex flex-col gap-1 -translate-y-1/2		rounded-md">
         <h1 class="self-center text-xl ">Bienvendio</h1>
 
@@ -16,10 +17,7 @@ function App() {
       </form>
       
     </div>
-  )
+    )
 }
 
-
-
-
-export default App
+export default Grid;
