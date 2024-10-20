@@ -1,23 +1,16 @@
 import React from "react";
 
-
 function Grid() {
-    return(
-        <div class="flex flex-col h-screen justify-center  drop-shadow">
-      <form action="#" method="post" class="border-solid border-2 border-black p-5 w-fit self-center flex flex-col gap-1 -translate-y-1/2		rounded-md">
-        <h1 class="self-center text-xl ">Bienvendio</h1>
-
-        <label htmlFor="email">Email</label>
-        <input type="email" name="email" id="email" class="border-solid border-2"/>
-
-        <label htmlFor="contrasenia">Contraseña</label>
-        <input type="password" name="contrasenia" id="contrasenia" class="border-solid border-2"/>
-
-        <input type="submit" value="Acceder" name='Acceder' class="border-solid border-2 border-black mt-3 bg-blue-300  hover:bg-green-300 ease-in-out duration-700"/>
-      </form>
-      
+  return (
+    <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4 p-6 bg-gray-900">
+      <div className="bg-gray-800 shadow-lg p-6 text-white rounded-lg">
+        <img className="rounded-lg" src="https://picsum.photos/700/400?grayscale" alt="" />
+      </div>
+      <div className="bg-gray-800 shadow-lg p-6 text-white rounded-lg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex culpa ipsam cum libero minima atque corrupti nisi incidunt quasi dolores. Eligendi laborum corrupti odit, aliquid laudantium similique error quia beatae.</p>
+      </div>
     </div>
-    )
+  )
 }
 
 export default Grid;
