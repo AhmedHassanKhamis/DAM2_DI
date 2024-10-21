@@ -1,4 +1,5 @@
 import React from "react";
+import IMAGES from './images/Images'
 
 function Grid() {
   return (
@@ -9,6 +10,7 @@ function Grid() {
       <div className="bg-gray-800 shadow-lg p-6 text-white rounded-lg">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex culpa ipsam cum libero minima atque corrupti nisi incidunt quasi dolores. Eligendi laborum corrupti odit, aliquid laudantium similique error quia beatae.</p>
       </div>
+      <img className="rounded-lg" src={IMAGES.image1} alt="" />
     </div>
   )
 }
