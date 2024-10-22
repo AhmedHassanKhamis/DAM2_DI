@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'miFuente': ['Danfo', 'Arial']
+      },
+      colors:{
+        'amarilloOro': '#FFDF00'
+      }
+    },
   },
   plugins: [],
 }
