@@ -108,3 +108,8 @@ crear proyecto con vite mediante el comando:
 
 ############# 23-10-2024 ####################3
 hacer links de login y register en el navbar
+
+
+
+npm i react-hook-dom
+npm i react-hook-form
