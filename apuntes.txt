@@ -111,5 +111,10 @@ hacer links de login y register en el navbar
 
 
 
-npm i react-hook-dom
+npm i react-router-dom
 npm i react-hook-form
+
+
+sudo rm -rf /home/usertar/Escritorio/000_CLASE/DAM2_DI/proyectTareas
+sudo rm -rf /home/usertar/Escritorio/000_CLASE/DI
+
