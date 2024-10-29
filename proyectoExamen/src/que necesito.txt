@@ -1,0 +1,6 @@
+1-index.js
+2-app.js
+3-db.js
+3-un modelo.js
+4-un controlador
+5-un enrutador
