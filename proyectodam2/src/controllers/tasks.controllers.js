@@ -27,7 +27,7 @@ export const crearTarea = async(req,res) => {
 export const  actualizarTarea = async(req, res) => {
     const { username, task } = req.body;
     try {
-        const tarea = Task.findOne({username: username});
+        const tarea = await Task.findOne({username: username});
         if (tarea) {
             tarea.task = task;
             await tarea.save();
