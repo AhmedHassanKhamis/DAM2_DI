@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     {/* <Grid /> */}
     {/* <Flex /> */}
-    {/* <Navbar /> */}
+    <Navbar />
     {/* <Practica1 /> */}
     <App2 />
   </StrictMode>,

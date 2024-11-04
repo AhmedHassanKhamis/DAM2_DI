@@ -106,7 +106,7 @@ crear proyecto con vite mediante el comando:
         }
 
 
-############# 23-10-2024 ####################3
+############# 23-10-2024 ####################
 hacer links de login y register en el navbar
 
 
@@ -118,3 +118,8 @@ npm i react-hook-form
 sudo rm -rf /home/usertar/Escritorio/000_CLASE/DAM2_DI/proyectTareas
 sudo rm -rf /home/usertar/Escritorio/000_CLASE/DI
 
+############# 4-11-2024 ####################
+npm i axios 
+
+npm i cors -> para salidas de dominios
+app.use(cors())

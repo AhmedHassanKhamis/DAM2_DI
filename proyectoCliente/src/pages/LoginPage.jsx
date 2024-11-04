@@ -1,13 +1,15 @@
 import { useForm } from "react-hook-form"
+import { loginRequest } from "../api/Auth.js";
+
 
 function LoginPage() {
     const { register, handleSubmit } = useForm()
     return (
-        <div className="flex flex-col justify-center w-dvw h-dvh bg-black">
+        <div className="flex flex-col justify-center h-dvh bg-black">
             <div className="flex flex-row justify-center">
                 <div className="bg-green-500 p-10 shadow-2xl rounded-md shadow-green-200">
                     <form onSubmit={handleSubmit((values) => {
-                        console.log(values)
+                        loginRequest(values);
                     })}>
                         <h1 className="text-3xl mb-5 font-bold">Iniciar Sesion</h1>
 

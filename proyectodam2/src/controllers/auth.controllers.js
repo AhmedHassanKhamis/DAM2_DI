@@ -4,10 +4,9 @@ import bcrypt from "bcryptjs";
 export const register = async(req, res) => {
 
     try {
+        const { username, email, password } = req.body
 
         const passwordHash = bcrypt.hashSync(req.body.password, 10);
-
-        const { username, email, password } = req.body
 
         const newUser = new User({
             username,
@@ -54,7 +53,7 @@ export const login = async (req, res) => {
 };
  
 
-export const updateUser = async (req, res) => {
+export const update = async (req, res) => {
     const {  username, oldPassword , newPassword } = req.body;
     try {
         const usuarioExiste = await User.findOne({username : username});
@@ -74,4 +73,18 @@ export const updateUser = async (req, res) => {
         console.log(error);
     }
 
+}
+
+
+export const remove = async (req, res) => {
+
+    try {
+        const { username } = req.body;
+        await User.findOneAndDelete({
+            username: username,
+        })
+        res.send("Usuario eliminado!");
+    } catch (error) {
+        res.send(error);
+    }
 }
