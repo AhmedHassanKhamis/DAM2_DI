@@ -4,6 +4,8 @@ import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import DeletePage from "./pages/RemovePage";
 import UpdatePage from "./pages/UpdatePage";
+import SearchPage from "./pages/SearchPage";
+import ListaPage from "./pages/ListaPage";
 
 
 
@@ -15,6 +17,8 @@ function App2() {
         <Route path="/login" element={<LoginPage />}/>
         <Route path="/update" element={<UpdatePage />}/>
         <Route path="/remove" element={<DeletePage />}/>
+        <Route path="/search" element={<SearchPage />}/>
+        <Route path="/Lista" element={<ListaPage />}/>
       </Routes>
     </BrowserRouter>
 

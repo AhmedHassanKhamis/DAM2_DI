@@ -47,3 +47,20 @@ export const updateRequest = (user) => {
     })
 
 }
+
+
+export const searchRequest = () => {
+    axios.get(`${API}/search`)
+    .then(function (response) {
+        return response
+    })
+    .catch(function (error) {
+        console.log(error)
+    })
+
+}
+
+
+export const getUsuarios = async() => await axios.get('/search')
+
+

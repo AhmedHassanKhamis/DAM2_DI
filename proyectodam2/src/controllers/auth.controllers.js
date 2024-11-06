@@ -88,3 +88,14 @@ export const remove = async (req, res) => {
         res.send(error);
     }
 }
+
+
+export const search = async (req, res) => {
+
+    try {
+        const usuarios = await User.find({})
+        res.send(usuarios); 
+    } catch (error) {
+        res.send(error);
+    }
+}
