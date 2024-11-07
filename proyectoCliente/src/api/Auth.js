@@ -61,6 +61,6 @@ export const searchRequest = () => {
 }
 
 
-export const getUsuarios = async() => await axios.get('/search')
+export const getUsuarios = () => axios.get('/search')
 
 
