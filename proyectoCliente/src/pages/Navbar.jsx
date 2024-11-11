@@ -26,13 +26,13 @@ function Navbar() {
                             </div>
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
-                                    <a href="Register" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">Register</a>
-                                    <a href="Login" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">Login</a>
-                                    <a href="Update" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">Update</a>
-                                    <a href="Remove" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">Remove</a>
-                                    <a href="Search" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">Search</a>
-                                    <a href="Lista" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">Lista</a>
-                                    <a href="Support" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">Support</a>
+                                    <a href="Register" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white hover:scale-120 ">Register</a>
+                                    <a href="Login" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white hover:scale-120 ">Login</a>
+                                    <a href="Update" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white hover:scale-120 ">Update</a>
+                                    <a href="Remove" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white hover:scale-120 ">Remove</a>
+                                    <a href="Search" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white hover:scale-120 ">Search</a>
+                                    <a href="Lista" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white hover:scale-120 ">Lista</a>
+                                    <a href="Support" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white hover:scale-120 ">Support</a>
                                 </div>
                             </div>
                         </div>

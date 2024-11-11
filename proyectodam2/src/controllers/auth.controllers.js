@@ -91,7 +91,6 @@ export const remove = async (req, res) => {
 
 
 export const search = async (req, res) => {
-
     try {
         const usuarios = await User.find({})
         res.send(usuarios); 

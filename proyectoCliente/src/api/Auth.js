@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, { Axios } from 'axios';
 
 
 const API ='http://localhost:5000';
@@ -52,7 +52,7 @@ export const updateRequest = (user) => {
 export const searchRequest = () => {
     axios.get(`${API}/search`)
     .then(function (response) {
-        return response
+        console.log(response)
     })
     .catch(function (error) {
         console.log(error)
@@ -61,6 +61,16 @@ export const searchRequest = () => {
 }
 
 
-export const getUsuarios = () => axios.get('/search')
+
+
+
+
+
+//VARIABLE PARA DEFINIR LA DIRECCION DE MI SERVIDOR
+// const API ='http://localhost:5000';
+
+
+// ENDPOINT "FRONTAL" PARA DEVOLVER EL LISTADO DE USUARIOS
+export const getUsuarios =  await axios.get(`${API}/search`)
 
 

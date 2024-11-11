@@ -18,7 +18,7 @@ function App2() {
         <Route path="/update" element={<UpdatePage />}/>
         <Route path="/remove" element={<DeletePage />}/>
         <Route path="/search" element={<SearchPage />}/>
-        <Route path="/Lista" element={<ListaPage />}/>
+        <Route path="/lista" element={<ListaPage />}/>
       </Routes>
     </BrowserRouter>
 
