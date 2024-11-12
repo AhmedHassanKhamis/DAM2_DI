@@ -78,6 +78,8 @@ crear proyecto con vite mediante el comando:
         -npx tailwindcss init -p
 
 
+        tengo que meter en el tailwind.config.js lo siguiente->:
+
         /** @type {import('tailwindcss').Config} */
         export default {
         content: [
@@ -90,6 +92,7 @@ crear proyecto con vite mediante el comando:
         plugins: [],
         }
 
+        tengo que meter en el index.css lo siguiente al comienzo:->
 
         @tailwind base;
         @tailwind components;
