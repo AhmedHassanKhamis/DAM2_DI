@@ -1,23 +1,17 @@
 import mongoose from "mongoose"
 
 const historialSchema = new mongoose.Schema({
-    Nombre:{
+    nombreAlumno:{
         type: String,
         trim: true,
     },
-    disponibilidad:{
-        type: Boolean,
-        trim: true,
-    },
-    precio:{
-        type: Float64Array,
+    pedidosRealizados:{
+        type: Number,
         trim: true,
     }
-
-
 
 },{
 timestamps:true
 })
 
-export default mongoose.Schema('historial',historialSchema)
+export default mongoose.model('Historial',historialSchema)

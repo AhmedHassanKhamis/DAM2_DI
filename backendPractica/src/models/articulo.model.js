@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 
 
 const articuloSchema = new mongoose.Schema({
-        Nombre:{
+        nombre:{
             type: String,
             trim: true,
         },
@@ -11,7 +11,7 @@ const articuloSchema = new mongoose.Schema({
             trim: true,
         },
         precio:{
-            type: Float64Array,
+            type: Number,
             trim: true,
         }
 
@@ -21,27 +21,4 @@ const articuloSchema = new mongoose.Schema({
     timestamps:true
 })
 
-export default mongoose.model('articulo',articuloSchema);
-
-
-// const articuloSchema = new mongoose.Schema({
-//     Nombre:{
-//         type: String,
-//         trim: true,
-//     },
-//     disponibilidad:{
-//         type: Boolean,
-//         trim: true,
-//     },
-//     precio:{
-//         type: Float64Array,
-//         trim: true,
-//     }
-
-
-
-// },{
-// timestamps:true
-// })
-
-
+export default mongoose.model('Articulo',articuloSchema);
