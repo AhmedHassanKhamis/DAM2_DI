@@ -7,7 +7,7 @@ const router = Router();
 
 
 router.post('/checkArticulo',checkArticulo)
-router.post('/historialAlumno',historialAlumno)
+router.get('/historialAlumno',historialAlumno)
 router.post('/crearPedido',crearPedido)
 
 

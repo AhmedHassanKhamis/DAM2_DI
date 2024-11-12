@@ -30,3 +30,21 @@ export const  CrearPedidoRequest =  (articulo) => {
         }
     )
 }
+
+
+
+// export const  HistorialPedidoRequest = async (articulo) => {
+//     return await axios.get(`${API}/historialAlumno`,articulo)
+//     .then(function (response) {
+//         console.log(response)
+//     }
+//     )
+//     .catch(
+//         function (error) {
+//             console.log(error)    
+//         }
+//     )
+    
+// }
+
+export const HistorialPedidoRequest = (articulo) =>  {return axios.get(`${API}/historialAlumno`,articulo)}
