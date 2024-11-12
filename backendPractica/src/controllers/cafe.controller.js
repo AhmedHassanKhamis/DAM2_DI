@@ -30,10 +30,11 @@ export const checkArticulo = async (req,res) => {
 export const historialAlumno = async (req,res) => {
 
 
-    const { nombreAlumno } = req.body;
+    // const { nombreAlumno } = req.body;
 
     try {
-        const historialAlumno = await Historial.find({ nombreAlumno: nombreAlumno});
+        // const historialAlumno = await Historial.find({ nombreAlumno: nombreAlumno});
+        const historialAlumno = await Historial.find({});
         res.send(historialAlumno)
         
     } catch (error) {

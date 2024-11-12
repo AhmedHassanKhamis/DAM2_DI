@@ -33,18 +33,30 @@ export const  CrearPedidoRequest =  (articulo) => {
 
 
 
-// export const  HistorialPedidoRequest = async (articulo) => {
-//     return await axios.get(`${API}/historialAlumno`,articulo)
-//     .then(function (response) {
-//         console.log(response)
+// export async function HistorialPedidoRequest(articulo) {
+//     try {
+//         const response = await axios.get(`${API}/historialAlumno`,articulo);
+//         console.log(response);
+//         return response;
+//     } catch (error) {
+//         console.log(error);
+//         throw error;
 //     }
-//     )
-//     .catch(
+// }
+
+
+// export const  HistorialPedidoRequest =  (articulo) => {
+//     axios.post(`${API}/historialAlumno`,articulo)
+//     .then(
+//         function (response) {
+//             console.log(response)
+//             return response
+//         }
+//     ).catch(
 //         function (error) {
 //             console.log(error)    
 //         }
 //     )
-    
 // }
 
-export const HistorialPedidoRequest = (articulo) =>  {return axios.get(`${API}/historialAlumno`,articulo)}
+export const HistorialPedidoRequest = await axios.get(`${API}/historialAlumno`)

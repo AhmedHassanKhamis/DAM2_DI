@@ -11,7 +11,8 @@ function HistorialPedidoPage() {
       <div className='container mx-auto'>
         <form className='flex flex-col gap-5 bg-yellow-800 box-border p-10 h-30' onSubmit={handleSubmit((value) => {
           // const pedido = HistorialPedidoRequest(value);
-          navigate("/CardsPedido",{state :{NombreAlumno: value}})
+          // navigate("/CardsPedido",{state :{nombreAlumno: value}})
+          navigate("/CardsPedido")
 
           })}>
           <label htmlFor="nombreAlumno" className='text-yellow-100 text-xl'>Nombre del alumno:</label>
