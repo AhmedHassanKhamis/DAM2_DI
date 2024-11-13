@@ -17,3 +17,21 @@ export const CheckArticuloRequest = async (articulo) => {
         }
     )
 }
+
+
+export const CrearPedidoRequest = async (articulo) => {
+    await axios.post(`${API}/crearPedido`,articulo)
+    .then(
+        function (response) {
+            console.log(response)
+        }
+    )
+    .catch(
+        function (error) {
+            console.log(error)
+        }
+    )
+}
+
+
+export const HistorialAlumnoRequest = await axios.get(`${API}/historialAlumno`)
