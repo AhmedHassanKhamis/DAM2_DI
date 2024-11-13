@@ -45,18 +45,18 @@ export const  CrearPedidoRequest =  (articulo) => {
 // }
 
 
-// export const  HistorialPedidoRequest =  (articulo) => {
-//     axios.post(`${API}/historialAlumno`,articulo)
-//     .then(
-//         function (response) {
-//             console.log(response)
-//             return response
-//         }
-//     ).catch(
-//         function (error) {
-//             console.log(error)    
-//         }
-//     )
-// }
+export const  HistorialPedidoRequest =  (articulo) => {
+    axios.post(`${API}/historialAlumno`,articulo)
+    .then(
+        function (response) {
+            console.log(response)
+            return response
+        }
+    ).catch(
+        function (error) {
+            console.log(error)    
+        }
+    )
+}
 
-export const HistorialPedidoRequest = await axios.get(`${API}/historialAlumno`)
+// export const HistorialPedidoRequest = await axios.get(`${API}/historialAlumno`)
