@@ -128,6 +128,19 @@ npm i cors -> para salidas de dominios
 app.use(cors())
 
 
+############# 19/11/2024 ##############
+instalar las extensiones de c sharp y de unity en el visual
+
+
 ############# 22-11-2024 ####################
 C# Y C# DEV KIT
 UNITY
+
+para los sprite tengo que poner que sean single para poder visualizarlos
+tengo que darle que se adapte a la resolucion de la pantalla en el canvas
+para el buscaminas necesito lo siguiente:
+primero crear los botones legacy
+luego arrastrar el script creado como componentes de cada boton
+luego necesito añadir un onclick y arrastrar el boton al scope de dicho onclicklistener
+asociar dentro del componente del script cada cosa necesaria, tipo imagenes, audio y demas
+para crear audio primero me descargo el audio y luego tengo que crear en la escena un audio source y luego enlazarlo a el audio descargado
