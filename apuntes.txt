@@ -144,3 +144,10 @@ luego arrastrar el script creado como componentes de cada boton
 luego necesito añadir un onclick y arrastrar el boton al scope de dicho onclicklistener
 asociar dentro del componente del script cada cosa necesaria, tipo imagenes, audio y demas
 para crear audio primero me descargo el audio y luego tengo que crear en la escena un audio source y luego enlazarlo a el audio descargado
+
+
+-creo los objetos
+-los emparento al empty
+-genero el text y el boton
+-asignar al boton una funcion publica que llame al instantiate que luego coja el numero del entry y lo use para generar las cosas sin tenerlas instanciadas de antes
+-luego mirar como emparentar los prefab al empty
