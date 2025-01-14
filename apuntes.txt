@@ -151,3 +151,8 @@ para crear audio primero me descargo el audio y luego tengo que crear en la esce
 -genero el text y el boton
 -asignar al boton una funcion publica que llame al instantiate que luego coja el numero del entry y lo use para generar las cosas sin tenerlas instanciadas de antes
 -luego mirar como emparentar los prefab al empty
+
+
+
+######################3
+UNITY
